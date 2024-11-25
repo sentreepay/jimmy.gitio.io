@@ -18,6 +18,7 @@ buildExpired = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  enabled = true
   
   # 首頁設定
   profileMode = false
