@@ -1,0 +1,63 @@
+baseURL: "https://sentreepay.github.io/jimmy.gitio.io/"  # 改成你的網站 URL
+title: "Jimmy的個人網站"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: "Jimmy的個人網站"
+  description: "歡迎來到我的個人網站"
+  keywords: [Blog, Portfolio, PaperMod]
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  profileMode:
+    enabled: true
+    title: "你好！我是 Jimmy"
+    subtitle: "我是一名熱衷於學習和成長的學生"
+    imageUrl: "/images/profile.jpg"  # 如果你有頭像圖片的話
+    imageTitle: "我的照片"
+    buttons:
+      - name: 教育背景
+        url: "/education/"
+      - name: 專業技能
+        url: "/skills/"
+
+  # 社交媒體連結（可選）
+  socialIcons:
+    - name: github
+      url: "https://github.com/yourusername"  # 改成你的 GitHub 連結
+    - name: email
+      url: "mailto:youremail@example.com"     # 改成你的 email
+
+menu:
+  main:
+    - identifier: education
+      name: 教育背景
+      url: /education/
+      weight: 10
+    - identifier: skills
+      name: 專業技能
+      url: /skills/
+      weight: 20
+
+# 語言設定
+languages:
+    zh-tw:
+        languageName: "Chinese"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series

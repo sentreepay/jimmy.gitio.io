@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome on My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Welcome on My New Hugo Site</description>
+    <title>Jimmy的個人網站 on Hugo Fresh Theme</title>
+    <link>http://something-fresh.org/</link>
+    <description>Recent content in Jimmy的個人網站 on Hugo Fresh Theme</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://something-fresh.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>專業技能</title>
+      <link>http://something-fresh.org/skills/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://something-fresh.org/skills/</guid>
+      <description>我的專業技能與專長</description>
+    </item>
+    <item>
+      <title>教育背景</title>
+      <link>http://something-fresh.org/education/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://something-fresh.org/education/</guid>
+      <description>我的學術歷程</description>
+    </item>
   </channel>
 </rss>
